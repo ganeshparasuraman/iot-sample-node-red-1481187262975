@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-sample-node-red
+  host: iot-sample-node-red-ganeshp
+  disk_quota: 1024M
+  services:
+  - iot-sample-node-red-cloudantNoSQLDB
